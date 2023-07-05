@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sizing An Image</title>
+    <link rel="stylesheet" href="./Sizing_img.css">
+    <script src="./Sizing_img.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <h1 id="sname">Sizing an Image</h1>
+        <p id="para">Increase the width of an image by clicking the plus button and decrease by clicking the Minus button. For every action, the image increases or decreases by 5px.</p>
+        <p id="warning">Too big. Decrease the size of the Image</p>
+        <img id="imgdiv" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sizing-an-image-img.png">
+        <p id="widthtext">Width: <span id="widthsize">200px</span></p>
+        <div id="counterbox">
+            <button class="allbtns" onclick="decrease()">-</button>
+            <p id="pixel" class="allbtns">5px</p>
+            <button class="allbtns" onclick="increase()">+</button>
+        </div>
+    </div>
+</body>
+</html>
